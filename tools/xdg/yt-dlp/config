@@ -1,0 +1,4 @@
+# Private yt-dlp settings for the GTA 6 clip runs only (used through XDG_CONFIG_HOME; the normal yt-dlp config is untouched).
+# YouTube needs a JavaScript runtime; this PC has Node but not Deno.
+--js-runtimes node
+--remote-components ejs:github

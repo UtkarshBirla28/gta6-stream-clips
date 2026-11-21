@@ -1,0 +1,16 @@
+# Allow-list: only code, clip specs and docs are published.
+# Videos, audio, transcripts, logs and render output stay on the local machine.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/tools/
+!/kai/
+!/speed/
+/kai/*
+/speed/*
+!/kai/specs/
+!/speed/specs/
+__pycache__/
+*.pyc
+*.log
